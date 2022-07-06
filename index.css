@@ -1,0 +1,238 @@
+*{
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.50em;}
+
+
+button{
+   font-size: 1em;
+   font-weight: bold;
+   padding: 5px 15px;
+   border: radius 10px;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   -ms-border-radius:10px;
+   -o-border-radius:10px;
+   border: 1px solid rgba(0,0,0,0.5); 
+   box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+   color: white;
+   background-color: rgb(11, 95, 179);
+}
+button:hover{
+    background-color: rgb(8, 54, 100);
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.color-acento{
+   color: rgb(255, 255, 255); 
+}
+header{
+    background-color:  rgb(4, 24, 61);
+    border-style: ridge;
+    border-color: white
+}
+header .logo{
+    margin: 0;
+    padding: 20px 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 40px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
+    ;  
+}
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    
+    ,url("https://micarrerauniversitaria.com/wp-content/uploads/2018/02/tec-refrigeracion-768x512.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero h1{
+    color: white
+}
+#hero button{
+    font-size: 2.5em;
+}
+#hero h2{
+    color: white
+}
+
+#Que-somos .container{
+text-align: center;
+padding: 15px 0px;
+background-color: rgb(4, 24, 61);
+border-style: ridge;
+border-color: white
+}
+#Que-somos button{
+    font-size: 5vw;
+}
+#dondeubi .container{
+    text-align: center;
+padding: 30px 0px;
+background-color: rgb(4, 24, 61);
+border-style: ridge;
+border-color: white
+}
+#dondeubi button{
+    font-size: 1.5em;
+    font-size: 2vw;
+}
+#redsocial .container{
+    text-align: center;
+padding: 30px 0px;
+background-color: rgb(4, 24, 61);
+border-style: ridge;
+border-color: white
+}
+#redsocial button{
+    font-size: 5vw;
+}
+#Nuestros-productos .container{
+    background-color: rgb(4, 24, 61);
+    color: white;
+    text-align: center;
+    border-style: ridge;
+border-color: white;
+}
+#Nuestros-productos .container{
+    padding: 85px 10px;
+}
+#Nuestros-productos h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#Nuestros-productos p{
+    display: flex;
+
+}
+#Nuestros-productos button{
+    font-size: 1.5em;
+}
+#Nuestros-productos .carta{
+        background-position: center center;
+        background-size: cover;
+        padding: 40px;
+        margin: 50px;
+        border-radius: 20px ;
+        -webkit-border-radius: 20px ;
+        -moz-border-radius: 20px ;
+        -ms-border-radius: 20px ;
+        -o-border-radius: 20px ;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(""); 
+}
+.carta:nth-child(2){  
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("file:///C:/Users/Usuario/Downloads/La%20t%C3%A9cnica%20del%20vac%C3%ADo%20en%20los%20sistemas%20de%20aire%20acondicionado.jpg"); 
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("file:///C:/Users/Usuario/Downloads/Vector%20Cajas%20De%20Cart%C3%B3n%20Y%20Autopartes%20PNG%20,%20Caja%20De%20Cart%C3%B3n,%20Partes,%20Partes%20De%20Dibujos%20Animados%20PNG%20y%20PSD%20para%20Descargar%20Gratis%20_%20Pngtree.jpg"); 
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://tse1.mm.bing.net/th?id=OIP.47AWfSCFP3Sn0PMVDvwsCAHaD1&pid=Api&P=0&w=344&h=178"); 
+}
+#caracteristicas .container{
+    text-align: center;
+    padding: 30px 15px;
+    background-color:rgb(4, 24, 61);
+    color: white;
+    border-style: ridge;
+    border-color: white
+}
+#caracteristicas li{
+    margin: 25px 0px;
+    font-weight: bold;
+
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+footer p{
+margin: 0;
+color: rgb(14, 14, 14); 
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.8em;
+}
+@media (min-width: 720px){
+    header{
+        width: 100%;
+    }
+    
+}
+#Nuestros-productos .programas{
+    
+}
